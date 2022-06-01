@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C83D5FAE2845E8960028EC94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C83D5FAD2845E8960028EC94 /* AppDelegate.m */; };
+		C83D5FB12845E8960028EC94 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C83D5FB02845E8960028EC94 /* SceneDelegate.m */; };
+		C83D5FB42845E8960028EC94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C83D5FB32845E8960028EC94 /* ViewController.m */; };
+		C83D5FB72845E8960028EC94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83D5FB52845E8960028EC94 /* Main.storyboard */; };
+		C83D5FB92845E8970028EC94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C83D5FB82845E8970028EC94 /* Assets.xcassets */; };
+		C83D5FBC2845E8970028EC94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83D5FBA2845E8970028EC94 /* LaunchScreen.storyboard */; };
+		C83D5FBF2845E8970028EC94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C83D5FBE2845E8970028EC94 /* main.m */; };
+		C83D5FCD2845EF920028EC94 /* TodoVO.m in Sources */ = {isa = PBXBuildFile; fileRef = C83D5FCC2845EF920028EC94 /* TodoVO.m */; };
+		C83D5FD42845F2920028EC94 /* TodoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C83D5FD32845F2920028EC94 /* TodoManager.m */; };
+		C83D5FD92845F7C70028EC94 /* TodoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C83D5FD72845F7C70028EC94 /* TodoCell.m */; };
+		C83D5FDA2845F7C70028EC94 /* TodoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C83D5FD82845F7C70028EC94 /* TodoCell.xib */; };
+		C83D5FDD284619CD0028EC94 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C83D5FDC284619CD0028EC94 /* EditViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C83D5FA92845E8960028EC94 /* RetroTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C83D5FAC2845E8960028EC94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C83D5FAD2845E8960028EC94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C83D5FAF2845E8960028EC94 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C83D5FB02845E8960028EC94 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C83D5FB22845E8960028EC94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C83D5FB32845E8960028EC94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C83D5FB62845E8960028EC94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C83D5FB82845E8970028EC94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C83D5FBB2845E8970028EC94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C83D5FBD2845E8970028EC94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C83D5FBE2845E8970028EC94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C83D5FCB2845EF920028EC94 /* TodoVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoVO.h; sourceTree = "<group>"; };
+		C83D5FCC2845EF920028EC94 /* TodoVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoVO.m; sourceTree = "<group>"; };
+		C83D5FD22845F2920028EC94 /* TodoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoManager.h; sourceTree = "<group>"; };
+		C83D5FD32845F2920028EC94 /* TodoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoManager.m; sourceTree = "<group>"; };
+		C83D5FD62845F7C70028EC94 /* TodoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoCell.h; sourceTree = "<group>"; };
+		C83D5FD72845F7C70028EC94 /* TodoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoCell.m; sourceTree = "<group>"; };
+		C83D5FD82845F7C70028EC94 /* TodoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoCell.xib; sourceTree = "<group>"; };
+		C83D5FDB284619CD0028EC94 /* EditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		C83D5FDC284619CD0028EC94 /* EditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		C83D5FDF2846692F0028EC94 /* NSObject+TypecastWithAssertion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+TypecastWithAssertion.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C83D5FA62845E8960028EC94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C83D5FA02845E8960028EC94 = {
+			isa = PBXGroup;
+			children = (
+				C83D5FAB2845E8960028EC94 /* RetroTableView */,
+				C83D5FAA2845E8960028EC94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C83D5FAA2845E8960028EC94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C83D5FA92845E8960028EC94 /* RetroTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C83D5FAB2845E8960028EC94 /* RetroTableView */ = {
+			isa = PBXGroup;
+			children = (
+				C83D5FDE2846691E0028EC94 /* Utilities */,
+				C83D5FD12845F2870028EC94 /* Managers */,
+				C83D5FC72845EF670028EC94 /* VO */,
+				C83D5FC52845E8A10028EC94 /* Delegates */,
+				C83D5FC62845EF260028EC94 /* ViewControllers */,
+				C83D5FD52845F7AC0028EC94 /* Cells */,
+				C83D5FB52845E8960028EC94 /* Main.storyboard */,
+				C83D5FB82845E8970028EC94 /* Assets.xcassets */,
+				C83D5FBA2845E8970028EC94 /* LaunchScreen.storyboard */,
+				C83D5FBD2845E8970028EC94 /* Info.plist */,
+				C83D5FBE2845E8970028EC94 /* main.m */,
+			);
+			path = RetroTableView;
+			sourceTree = "<group>";
+		};
+		C83D5FC52845E8A10028EC94 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				C83D5FAC2845E8960028EC94 /* AppDelegate.h */,
+				C83D5FAD2845E8960028EC94 /* AppDelegate.m */,
+				C83D5FAF2845E8960028EC94 /* SceneDelegate.h */,
+				C83D5FB02845E8960028EC94 /* SceneDelegate.m */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		C83D5FC62845EF260028EC94 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C83D5FB22845E8960028EC94 /* ViewController.h */,
+				C83D5FB32845E8960028EC94 /* ViewController.m */,
+				C83D5FDB284619CD0028EC94 /* EditViewController.h */,
+				C83D5FDC284619CD0028EC94 /* EditViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C83D5FC72845EF670028EC94 /* VO */ = {
+			isa = PBXGroup;
+			children = (
+				C83D5FCB2845EF920028EC94 /* TodoVO.h */,
+				C83D5FCC2845EF920028EC94 /* TodoVO.m */,
+			);
+			path = VO;
+			sourceTree = "<group>";
+		};
+		C83D5FD12845F2870028EC94 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C83D5FD22845F2920028EC94 /* TodoManager.h */,
+				C83D5FD32845F2920028EC94 /* TodoManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C83D5FD52845F7AC0028EC94 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C83D5FD62845F7C70028EC94 /* TodoCell.h */,
+				C83D5FD72845F7C70028EC94 /* TodoCell.m */,
+				C83D5FD82845F7C70028EC94 /* TodoCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C83D5FDE2846691E0028EC94 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C83D5FDF2846692F0028EC94 /* NSObject+TypecastWithAssertion.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C83D5FA82845E8960028EC94 /* RetroTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C83D5FC22845E8970028EC94 /* Build configuration list for PBXNativeTarget "RetroTableView" */;
+			buildPhases = (
+				C83D5FA52845E8960028EC94 /* Sources */,
+				C83D5FA62845E8960028EC94 /* Frameworks */,
+				C83D5FA72845E8960028EC94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetroTableView;
+			productName = RetroTableView;
+			productReference = C83D5FA92845E8960028EC94 /* RetroTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C83D5FA12845E8960028EC94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C83D5FA82845E8960028EC94 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = C83D5FA42845E8960028EC94 /* Build configuration list for PBXProject "RetroTableView" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C83D5FA02845E8960028EC94;
+			productRefGroup = C83D5FAA2845E8960028EC94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C83D5FA82845E8960028EC94 /* RetroTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C83D5FA72845E8960028EC94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C83D5FBC2845E8970028EC94 /* LaunchScreen.storyboard in Resources */,
+				C83D5FB92845E8970028EC94 /* Assets.xcassets in Resources */,
+				C83D5FB72845E8960028EC94 /* Main.storyboard in Resources */,
+				C83D5FDA2845F7C70028EC94 /* TodoCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C83D5FA52845E8960028EC94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C83D5FB42845E8960028EC94 /* ViewController.m in Sources */,
+				C83D5FAE2845E8960028EC94 /* AppDelegate.m in Sources */,
+				C83D5FBF2845E8970028EC94 /* main.m in Sources */,
+				C83D5FD42845F2920028EC94 /* TodoManager.m in Sources */,
+				C83D5FDD284619CD0028EC94 /* EditViewController.m in Sources */,
+				C83D5FB12845E8960028EC94 /* SceneDelegate.m in Sources */,
+				C83D5FCD2845EF920028EC94 /* TodoVO.m in Sources */,
+				C83D5FD92845F7C70028EC94 /* TodoCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C83D5FB52845E8960028EC94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C83D5FB62845E8960028EC94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C83D5FBA2845E8970028EC94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C83D5FBB2845E8970028EC94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C83D5FC02845E8970028EC94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C83D5FC12845E8970028EC94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C83D5FC32845E8970028EC94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RetroTableView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyaw.RetroTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C83D5FC42845E8970028EC94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RetroTableView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyaw.RetroTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C83D5FA42845E8960028EC94 /* Build configuration list for PBXProject "RetroTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83D5FC02845E8970028EC94 /* Debug */,
+				C83D5FC12845E8970028EC94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C83D5FC22845E8970028EC94 /* Build configuration list for PBXNativeTarget "RetroTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83D5FC32845E8970028EC94 /* Debug */,
+				C83D5FC42845E8970028EC94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C83D5FA12845E8960028EC94 /* Project object */;
+}
